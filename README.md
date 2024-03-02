@@ -70,7 +70,7 @@ The project consists of the following components:
 import spacy
 
 nlp = spacy.load('path_to_your_trained_model')
-doc = nlp('Hello, My name is Arham. I had worked at Revelio Labs Private LTD.')
+doc = nlp('Hello, My name is Arham. I am working at Revelio Labs.')
 
 for ent in doc.ents:
     print(ent.text, " --------> ", ent.label_)
