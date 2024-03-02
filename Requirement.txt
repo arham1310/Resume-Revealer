@@ -1,0 +1,7 @@
+pip install spacy_transformers
+pip install -U spacy
+pip install python-magic
+pip install python-magic-bin
+pip install PyMuPDF
+pip install python-docx
+pip install scikit-learn
